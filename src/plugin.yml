@@ -1,0 +1,8 @@
+name: qShop
+main: me.Browk.qShop.Main
+version: 1.0.0
+author: Browk_
+depend: [Vault]
+commands:
+  qshop:
+    aliases: [shop]

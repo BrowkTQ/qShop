@@ -1,0 +1,148 @@
+###################################################
+#               _____   _                         #
+#              / ____| | |                        #
+#       __ _  | (___   | |__     ___    _ __      #
+#      / _` |  \___ \  | '_ \   / _ \  | '_ \     #
+#     | (_| |  ____) | | | | | | (_) | | |_) |    #
+#      \__, | |_____/  |_| |_|  \___/  | .__/     #
+#         | |                          | |        #
+#         |_|                          |_|        #
+#                                                 #
+###################################################
+#                                                 #
+#   Discord Support: https://discord.gg/KFjswZn   #
+#                                                 #
+###################################################
+
+#You can set how many categories and items you want.
+#Item's price will be randomly selected between the lowest price and the highest price values.
+#If you want to disable the BUY option for an item, you must set 'lowest-buy-price' and 'highest-buy-price' to 0.
+#If you want to disable the SELL option for an item, you must set 'lowest-sell-price' and 'highest-sell-price' to 0.
+
+Categories:
+  #Mobs is our first category.
+  Mobs:
+    #How many items will be extracted from this category to be displayed in the store?
+    #The number of extractions must be <= than the number of items in the category.
+    Number of extractions: 2
+    Category items:
+      1:
+        item: BONE
+        data: 0
+        displayname: "&6&eBone"
+        lowest-buy-price: 3.2  #price per one item
+        highest-buy-price: 4.7
+        lowest-sell-price: 1.4
+        highest-sell-price: 2
+      2:
+        item: STRING
+        data: 0
+        displayname: "&6&eString"
+        lowest-buy-price: 0  #That item won't have a sell option because this is set to 0.
+        highest-buy-price: 0
+        lowest-sell-price: 2.1
+        highest-sell-price: 3.6
+      3:
+        item: SPIDER_EYE
+        data: 0
+        displayname: "&6&eSpider Eye"
+        lowest-buy-price: 4.1
+        highest-buy-price: 5.3
+        lowest-sell-price: 2.4
+        highest-sell-price: 2.65
+      4:
+        item: ENDER_PEARL
+        data: 0
+        displayname: "&5&eEnder Pearl"
+        lowest-buy-price: 5.1
+        highest-buy-price: 5.25
+        lowest-sell-price: 3
+        highest-sell-price: 4.65
+  #Blocks is our second category.
+  Blocks:
+    Number of extractions: 3
+    Category items:
+      1:
+        item: STONE
+        data: 0
+        displayname: "&6&eStone"
+        lowest-buy-price: 3.2
+        highest-buy-price: 4.7
+        lowest-sell-price: 1.4
+        highest-sell-price: 2
+      2:
+        item: STONE
+        data: 1
+        displayname: "&6&eGranite"
+        lowest-buy-price: 4
+        highest-buy-price: 5.63
+        lowest-sell-price: 2.1
+        highest-sell-price: 3.6
+      3:
+        item: DIRT
+        data: 0
+        displayname: "&6&eDirt"
+        lowest-buy-price: 4.1
+        highest-buy-price: 5.3
+        lowest-sell-price: 2.4
+        highest-sell-price: 2.65
+      4:
+        item: DIRT
+        data: 1
+        displayname: "&6&eCoarse Dirt"
+        lowest-buy-price: 5.1
+        highest-buy-price: 5.25
+        lowest-sell-price: 3
+        highest-sell-price: 4.65
+      5:
+        item: GLASS
+        data: 0
+        displayname: "&6&eGlass"
+        lowest-buy-price: 4.1
+        highest-buy-price: 4.25
+        lowest-sell-price: 2
+        highest-sell-price: 3.65
+  #Fram is our second category.
+  Farm:
+    Number of extractions: 4
+    Category items:
+      1:
+        item: CARROT_ITEM
+        data: 0
+        displayname: "&6&eCarrot"
+        lowest-buy-price: 3.2
+        highest-buy-price: 4.7
+        lowest-sell-price: 1.4
+        highest-sell-price: 2
+      2:
+        item: POTATO_ITEM
+        data: 0
+        displayname: "&6&ePotato"
+        lowest-buy-price: 4
+        highest-buy-price: 5.63
+        lowest-sell-price: 2.1
+        highest-sell-price: 3.6
+      3:
+        item: WHEAT
+        data: 0
+        displayname: "&6&eWheat"
+        lowest-buy-price: 4.1
+        highest-buy-price: 5.3
+        lowest-sell-price: 2.4
+        highest-sell-price: 2.65
+      4:
+        item: SEEDS
+        data: 0
+        displayname: "&6&eSeeds"
+        lowest-buy-price: 5.1
+        highest-buy-price: 5.25
+        lowest-sell-price: 3
+        highest-sell-price: 4.65
+      5:
+        item: SUGAR_CANE
+        data: 0
+        displayname: "&6&eSugar Cane"
+        lowest-buy-price: 4.1
+        highest-buy-price: 4.25
+        lowest-sell-price: 0
+        highest-sell-price: 0
